@@ -1,0 +1,7 @@
+Django==3.2.0
+Pytest==7.1.2
+psycopg2-binary
+ipython
+djangorestframework
+djangorestframework-simplejwt
+django-filter
