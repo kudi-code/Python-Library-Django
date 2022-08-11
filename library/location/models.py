@@ -21,4 +21,4 @@ class RackBookItem(models.Model):
     floor = models.IntegerField()
 
     def __str__(self):
-        return f" hall {self.rack.rack_number} --- {self.book_item.book.name}"
+        return f" hall {self.rack.rack_number} --- {self.book_item.book.title}"

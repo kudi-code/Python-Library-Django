@@ -28,21 +28,21 @@ class BookViewSet(viewsets.ModelViewSet):
         "ISBN",
         "title",
         "author",
-        "subject"
+        "subject",
         "publisher",
-        "description"
+        "description",
         "language",
-        "numberOfPages"
+        "numberOfPages",
     ]
     search_fields = {
         "ISBN",
         "title",
         "author",
-        "subject"
+        "subject",
         "publisher",
-        "description"
+        "description",
         "language",
-        "numberOfPages"
+        "numberOfPages",
     }
 
 class BookItemViewSet(viewsets.ModelViewSet):

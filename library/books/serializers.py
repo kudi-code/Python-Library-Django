@@ -9,7 +9,7 @@ class BookSerializer(serializers.ModelSerializer):
 
 class BookReadSerializer(serializers.ModelSerializer):
     class Meta:
-        fields = ("name", "author")
+        fields = ("title", "author")
         model =Book
 
 
